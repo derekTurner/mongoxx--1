@@ -18,7 +18,7 @@ services:
       - 27017:27017
 
   mongo-express:
-    image: mongo-express:0.54.0
+    image: mongo-express:1.0
     restart: always
     container_name: mongo-express
     ports:
